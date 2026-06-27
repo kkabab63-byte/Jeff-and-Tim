@@ -1,2 +1,4 @@
-# Jeff-and-Tim
-Jeff and Tim are continuous-control agents designed for research regarding MARL in continuous and complex environments. In this project we explore and research training methods in a 2D basketball environment. Read the ReadMe file for more information.
+# Abstract
+This project investigates emergent strategic behavior in a continuous control multi-agent reinforcement learning environment using adversarial self-play. Two agents are trained using Proximal Policy Optimization (PPO) within a simulated continuous control setting, where each agent learns competing objectives in pursuit and evasion tasks.
+Through iterative training, we observe the emergence of distinct behavioral strategies, including efficient path optimization, interception-based defense, and exploitative movement patterns arising from reward-driven dynamics. The system demonstrates non-trivial co-adaptation between agents, where improvements in one policy directly influence the behavioral evolution of the opponent, resulting in a non-stationary learning environment.
+This work highlights how reward structure and self-play dynamics influence emergent strategy formation in adversarial multi-agent reinforcement learning (MARL) systems.
